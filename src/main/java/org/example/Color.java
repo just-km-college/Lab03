@@ -13,8 +13,7 @@ public record Color(int alfa, int red, int green, int blue) {
         this(0,red,green,blue);
     }
 
-    @Override
-    public String toString() {
+    public String niceToString() {
         return "Color: 0x" + String.format("%02X", this.alfa) + String.format("%02X", this.red) + String.format("%02X", this.green) + String.format("%02X", this.blue);
     }
 
