@@ -57,7 +57,7 @@ public class TriangleTest {
     @Test
     public void testSmallBase() {
 
-        triangle = new Triangle(new Color(0, 0, 255), 0.1); // A very small base
+        triangle = new Triangle(new Color(0, 0, 255), 0.1);
 
         double expectedHeight = (0.1 * Math.sqrt(3)) / 2;
 
