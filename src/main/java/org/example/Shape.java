@@ -19,10 +19,6 @@ public abstract class Shape {
         return "Alpha: " + this.color.alfa() + " Red: " + this.color.red() + " Green: " + this.color.green() + " Blue: " + this.color.blue() + "\n";
     }
 
-    private void print() {
-        System.out.printf("%s is %s\n",this.getClass().getSimpleName(), this.toString());
-    }
-
     @Override
     public String toString() {
         return getClass().getSimpleName();
