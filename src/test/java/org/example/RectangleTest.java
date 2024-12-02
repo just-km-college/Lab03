@@ -51,7 +51,7 @@ public class RectangleTest {
     @Test
     public void testSmallValues() {
 
-        rectangle = new Rectangle(new Color(255, 0, 0), 0.1, 0.1);  // Small dimensions
+        rectangle = new Rectangle(new Color(255, 0, 0), 0.1, 0.1);
 
         double expectedArea = 0.1 * 0.1;
         double expectedPerimeter = 0.1 * 2 + 0.1 * 2;
@@ -66,7 +66,7 @@ public class RectangleTest {
     @Test
     public void testLargeValues() {
 
-        rectangle = new Rectangle(new Color(0, 0, 255), 1000, 5000);  // Large dimensions
+        rectangle = new Rectangle(new Color(0, 0, 255), 1000, 5000);
 
         double expectedArea = 1000 * 5000;
         double expectedPerimeter = 1000 * 2 + 5000 * 2;
